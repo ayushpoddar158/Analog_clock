@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: aliceblue;
+    height: 40vw;
+    width: 40vw;
+    background: url(clcok-removebg-preview.png)no-repeat;
+    background-size: 100%;
+    margin: auto;
+    /* border: 2px solid red; */
+    position: relative;
+}
+#hour, #minute, #second{
+    
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    border-radius: 10px;
+    
+}
+#hour{
+    width: 1.1%;
+    height: 23%;
+    left: 49.89%;
+    top: 28.6%;
+    /* display: none; */
+    opacity: 0.8;
+transform-origin: bottom;
+z-index: 20;
+}
+#minute{
+    width: 1%;
+    height: 28%;
+   
+    left: 49.97%;
+
+    top: 23.6%;
+    /* display: none; */
+    opacity: 0.8;
+   transform-origin: bottom;
+   z-index: 20;
+
+
+}
+#second{
+    width: 0.8%;
+    height: 33%;
+    left: 50.06%;
+    top: 18.6%;
+    /* display: none; */
+    opacity: 0.8;
+    transform-origin: bottom;
+    z-index: 20;
+}
